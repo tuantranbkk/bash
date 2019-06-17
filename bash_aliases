@@ -1,0 +1,16 @@
+alias mci='mvn clean install'
+alias mcits='mvn clean install -DskipTests'
+alias k='kubectl'
+alias kg='k get'
+alias kgp='kg pods'
+alias kd='k describe'
+alias d='docker'
+alias di='d images'
+alias g='git'
+alias gb='g branch'
+alias gba='gb --all'
+alias gfa='g fetch --all'
+alias gc='g commit'
+alias msr='mvn spring-boot:run'
+navikt() { git clone https://github.com/navikt/"$@";}
+dbash() { docker exec -it "$@" /bin/bash;}
